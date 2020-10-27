@@ -1,0 +1,16 @@
+
+<div highlightnewrecipe_color="yellow" [appHighlightNewRecipe]="recipe" class="card" (click)="userClicked()">
+  <div class="card-body">
+    <h5 class="card-title">{{recipe.title}}</h5>
+    <div class="cover-photo-holder">
+      <img class="card-img-top" src="{{recipe.cover_photo? 'http://localhost:8080/images/'+ recipe.cover_photo:'../../../assets/images/dummy.png'}}" alt="Card image cap">
+    </div>
+    <p class="card-text">{{recipe.description}} </p>
+    <div style="float:left;font-weight:bold;width:150px">Prepration Time</div>
+    <p class="card-text">{{recipe.feeds_this_many}}</p>
+    <div style="float:left;font-weight:bold;width:150px">Feeds how many</div>
+    <p class="card-text">{{recipe.prepration_time}}</p>
+  
+  </div>
+  </div>
+

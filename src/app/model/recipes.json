@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "title":"Banana Bread",
+        "description":"This is my favorite banana bread! My mother taught me to do it",
+        "feeds_this_many":4,
+        "prepration_time":60,
+        "ingredients":[
+            {"ingredient":"plain flour","measure":"285g"},
+            {"ingredient":"plain flour","measure":"285g"},
+            {"ingredient":"plain flour","measure":"285g"},
+            {"ingredient":"plain flour","measure":"285g"},
+            {"ingredient":"plain flour","measure":"285g"},
+            {"ingredient":"plain flour","measure":"285g"}
+        ],
+        "instructions":[
+            {"instruction":"Preheat the oven to 180C/250F/Gas 4","photo":null},
+            {"instruction":"Preheat the oven to 180C/250F/Gas 4","photo":null},
+            {"instruction":"Preheat the oven to 180C/250F/Gas 4","photo":null},
+            {"instruction":"Preheat the oven to 180C/250F/Gas 4","photo":null}
+        ],
+        "cover_photo":null,
+        "keywords":["banana","cake","dessert","chocolate","chip"],
+        "date_added":"2017-09-22T20:53:09.418Z",
+        "date_last_modified":"2017-09-22T20:53:09.418Z"
+    },
+    {
+        "id":2,
+        "title":"Farmstead Tofu",
+        "description":"This is my favorite banana bread! My mother taught me to do it",
+        "feeds_this_many":4,
+        "prepration_time":60,
+        "ingredients":[
+            {"ingredient":"garlic","measure":"285g"},
+            {"ingredient":"giner","measure":"285g"},
+            {"ingredient":"thai red chillies","measure":"1tbsp"},
+            {"ingredient":"plain flour","measure":"285g"},
+            {"ingredient":"plain flour","measure":"285g"},
+            {"ingredient":"plain flour","measure":"285g"}
+        ],
+        "instructions":[
+            {"instruction":"Preheat the oven to 180C/250F/Gas 4","photo":null},
+            {"instruction":"Preheat the oven to 180C/250F/Gas 4","photo":null},
+            {"instruction":"Preheat the oven to 180C/250F/Gas 4","photo":null},
+            {"instruction":"Preheat the oven to 180C/250F/Gas 4","photo":null}
+        ],
+        "cover_photo":null,
+        "keywords":["banana","cake","dessert","chocolate","chip"],
+        "date_added":"2017-09-22T20:53:09.418Z",
+        "date_last_modified":"2017-09-22T20:53:09.418Z"
+    }
+]

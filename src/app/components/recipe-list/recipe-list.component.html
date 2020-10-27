@@ -1,0 +1,30 @@
+       
+  <p *ngIf="!recipes_loaded && !load_error">
+      Loading recipes ....  please wait a moment!
+    </p>
+    <div *ngIf="load_error">
+      <div class="alert alert-danger" role="alert">
+        <span class="sr-only">Error:</span>
+        {{error_text}} -
+        <a [routerLink]="['/recipes']">Back to recipe list</a>
+      </div>
+    </div>
+             
+<P *ngIf="(!recipes || !recipes.length)">
+  There are no recipes.. why not add one now!
+</P>
+    
+<div style="float:right;padding: 5px">
+  <input type="button" value = "Add new Recipe" (click)="AddNewRecipePressed()"/>
+</div>
+<div *ngIf="recipes">
+    <h1 [ngClass]="current_classes">this is recipe</h1>
+    <recipe-summary *ngFor="let r of recipes" [recipe]="r" (userClick)="userClickedOnRecipe($event)"></recipe-summary>                
+</div>
+              
+           
+  
+
+
+
+
